@@ -1,0 +1,52 @@
+body {
+    background-color: bisque;
+    background-image: url(../Itogi/dungeonImages/Shab-Niggurat.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: lightblue;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1 {
+    text-align: center;
+   /* color: lightblue; */
+}
+main {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+footer {
+    color: rgb(126, 7, 7);
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 900;
+}
+a:hover {
+   /* fill: red!important;*/
+}
+path:hover {
+    background-color: red;
+}
+#Kazakhstan:hover, #Sweden:hover, #Finland:hover, #Norway:hover, #Turkey:hover,#Russia:hover,#Georgia:hover, #Armenia:hover, #Azerbaijan:hover,#Denmark:hover, #Estonia:hover,#Latvia:hover,#Lithuania:hover, #Belarus:hover,#Moldova:hover,#Poland:hover,#Germany:hover,#Slovakia:hover,#Belgium:hover,#Netherlands:hover,#Austria:hover,#Hungary:hover,#Romania:hover,#Bulgaria:hover,#Cyprus:hover,#Serbia:hover,#Albania:hover,#Ireland:hover,#Italy:hover,#Switzerland:hover,#France:hover, #Spain:hover, #Portugal:hover, #GreatBritain:hover, #Greece:hover, #Iceland:hover,#CzechRepublic:hover, #Slovenia:hover,#Croatia:hover,#Yugoslavia:hover, #Macedonia:hover, #Bosnia-Herzegovina:hover {
+    fill: greenyellow !important;
+    transition: 1s;
+}
+#Ukraine:hover {
+    fill: greenyellow !important;
+    transition: 1s;
+}
+#Kaliningrad:hover  {
+    fill: greenyellow !important;
+    transition: 1s;
+}
+#Kaliningrad:hover ~ #Russia {
+    fill: greenyellow !important;
+    transition: 1s;
+}
+
+#Russia:hover ~ #Kaliningrad {
+    fill: greenyellow !important;
+    transition: 1s;
+}
+/*                    #:hover,                       */
